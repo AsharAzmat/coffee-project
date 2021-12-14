@@ -1,0 +1,29 @@
+
+.list {
+  padding-inline-start: 0px;
+}
+
+.pagination {
+  margin: auto;
+}
+
+.pagination ::ng-deep .ngx-pagination {
+  padding-left: 0px !important;
+}
+
+.pagination ::ng-deep .ngx-pagination .current,
+.btn-info {
+  background: #D2B48C !important;
+  border: transparent !important;
+  border-radius: 20px !important;
+}
+
+.pagination ::ng-deep .ngx-pagination .current:hover {
+  background: #D2B48C !important;
+  border-radius: 20px !important;
+  border: transparent !important;
+}
+
+.pagination ::ng-deep .ngx-pagination .current {
+  background: grey;
+}

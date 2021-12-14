@@ -1,0 +1,21 @@
+<app-header></app-header>
+<div class="list-group" *ngIf="coffees$ | async as coffee">
+  <ul class="list">
+  <li class="list-group-item flex-column align-items-start">
+      <h1 class="mb-1">Coffee Details</h1>
+      <hr>
+      <h2 class="mb-1">{{coffee.blend_name}}</h2>
+      <h4 class="mb-1">{{coffee.origin}}</h4>
+      <div class="small-details">
+        <ul>
+          <li><em>Variety: {{ coffee.variety }}</em></li>
+          <li><em>Intensifier: {{ coffee.intensifier }}</em></li>
+          <li><em>Notes: {{ coffee.notes }}</em></li>
+        </ul>
+      </div>
+      <hr>
+      <a href="/"><button type="button" class="btn btn-outline-secondary btn-sm">Back</button></a>
+  </li>
+  </ul>
+</div>
+<app-footer></app-footer>
