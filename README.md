@@ -1,6 +1,8 @@
 # CoffeeApp
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.12.
+CoffeeApp is an Angular based application to view a list of various coffees gathered from an API endpoint. Users are introduced to a plethora of coffees and can view their descriptions by clicking each of them. 
+
+This application is created to showcase the features of Angular NgRx. NgRx Store, Actions, Reducers, Effects, Selectors and more are used. Bootstrap is used to create the visual appeal.
 
 ## Development server
 
