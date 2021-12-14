@@ -4,6 +4,8 @@ CoffeeApp is an Angular based application to view a list of various coffees gath
 
 This application is created to showcase the features of Angular NgRx. NgRx Store, Actions, Reducers, Effects, Selectors and more are used. Bootstrap is used to create the visual appeal.
 
+![image](https://user-images.githubusercontent.com/45441801/146093416-51126f3f-591b-4c67-9722-67b5334765d1.png)
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
